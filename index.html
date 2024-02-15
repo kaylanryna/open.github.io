@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<script>
+        function validateLogin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+			var satu = document.getElementById("satu").value;
+            
+            if (username.toLowerCase() !== "kaylaaa") {
+                alert("'a' nya kurangg");
+                return false;
+            }
+            
+            if (password !== "250623") {
+                alert("SALAH");
+                return false;
+            }
+			if (satu.toLowerCase() !== "seneng banget") {
+                alert("2 kata");
+                return false;
+			}
+            
+            return true;
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #92B4EC;
+		
+            
+        }
+    </style>
+  </head>
+  <body>
+	<center>
+	   <br>
+	   <div class="row">
+		  <div class="col-sm-12 text-center my-3">
+			<h1>Form Pendaftaran</h1>
+		  </div>
+	    </div>
+		<br>
+
+	<div class="card" style="width: 30rem;">
+		<div class="card-body">
+			
+			<form action="open.html" onsubmit=" return validateLogin()">
+				<label for="nama_lengkap">question 1</label>
+				<input type="text" id="username" name="username" class="form-control" placeholder="gue?">
+
+				<label for="nama_lengkap">question 2</label>
+				<input type="text" id="satu" name="satu" class="form-control" placeholder="how ur today?">
+			
+			
+				<label for="password">question 3</label>
+				<input type="password"  id="password" name="password" class="form-control" placeholder=" tanggal jalan ke block m?">
+			
+			
+				<label for="birthday">Birthday</label>
+				<input type="date" id="birthday" name="birthday"class="form-control">
+				<br>
+			
+			    <button type="submit"  class="btn btn-primary" >Login</button>
+			</form>
+			
+		</div>
+	 </div>
+	</center>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
