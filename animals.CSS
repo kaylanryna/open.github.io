@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Viga&display=swap');
+
+.carousel-inner {
+    background-image: linear-gradient(  #4F709C,#96B6C5,#4F709C);
+}
+.warna-si-oren {
+    background-color: #4F709C;
+}
+
+
