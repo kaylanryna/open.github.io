@@ -13,7 +13,11 @@
         function validateLogin() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
-			var satu = document.getElementById("satu").value;
+	    var satu = document.getElementById("satu").value;
+	    var dua = document.getElementById("dua").value;
+		var tiga = document.getElementById("tiga").value;
+		var empat = document.getElementById("empat").value;
+		var empat = document.getElementById("lima").value;
             
             if (username.toLowerCase() !== "kaylaaa") {
                 alert("'a' nya kurangg");
@@ -25,6 +29,22 @@
                 return false;
             }
 			if (satu.toLowerCase() !== "seneng banget") {
+                alert("2 kata");
+                return false;
+			}
+		if (dua.toLowerCase() !== "dreamland 4") {
+                alert("2 kata");
+                return false;
+			}
+		if (tiga.toLowerCase() !== " interaksi") {
+                alert("2 kata");
+                return false;
+			}
+		if (tiga.toLowerCase() !== " 28042008") {
+                alert("2 kata");
+                return false;
+			}
+		if (lima.toLowerCase() !== "milo kimo") {
                 alert("2 kata");
                 return false;
 			}
@@ -46,7 +66,7 @@
 	   <br>
 	   <div class="row">
 		  <div class="col-sm-12 text-center my-3">
-			<h1>Form Pendaftaran</h1>
+			<h1>HARUS BISA!!!!!</h1>
 		  </div>
 	    </div>
 		<br>
@@ -60,12 +80,24 @@
 
 				<label for="nama_lengkap">question 2</label>
 				<input type="text" id="satu" name="satu" class="form-control" placeholder="how ur today?">
+
+				<label for="fotbar 1?">question 3</label>
+				<input type="text" id="dua" name="dua" class="form-control" placeholder="fotbar 1?">
+
+				<label for="lagu?">question 4</label>
+				<input type="text" id="tiga" name="tiga" class="form-control" placeholder="lagu kita??">
+
+				<label for="ttl?">question 5</label>
+				<input type="text" id="dua" name="dua" class="form-control" placeholder="ttl gue?">
+
+				<label for="boneka?">question 6</label>
+				<input type="text" id="dua" name="dua" class="form-control" placeholder="nama boneka?">
 			
 			
-				<label for="password">question 3</label>
+				<label for="password">question 7</label>
 				<input type="password"  id="password" name="password" class="form-control" placeholder=" tanggal jalan ke block m?">
-			
-			
+
+				
 				<label for="birthday">Birthday</label>
 				<input type="date" id="birthday" name="birthday"class="form-control">
 				<br>
